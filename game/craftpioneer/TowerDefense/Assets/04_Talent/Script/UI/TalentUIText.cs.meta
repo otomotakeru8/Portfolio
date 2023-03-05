@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 135f863af994cec4dab7d25526dcca05
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_talentList: {fileID: 11400000, guid: 9c86584446bc1cd45b7c304289f5bd70, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

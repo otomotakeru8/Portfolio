@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 9ea7ddd8375f6b440825c5fd2e2c391e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - ProgressBar: {fileID: 4442714540136805502, guid: 84547d86aecb50b4b8dc722e04ef1f8c,
+      type: 3}
+  - m_playerData: {fileID: 11400000, guid: 4622483b9f67d5f4b97b2e7c604351be, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

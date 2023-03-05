@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c055e430332a7c845b77026ca60fafd0, type: 3}
+  m_Name: Enemy5
+  m_EditorClassIdentifier: 
+  m_enemyName: Enemy5
+  m_hp: 70
+  m_speed: 0.75
+  m_projectileDamageMultiplier: 1
+  m_fireDamageMultiplier: 0.8
+  m_toxicDamageMultiplier: 0.8
+  m_electricityDamageMultiplier: 0.8
+  m_iceDamageMultiplier: 0.8
+  m_magicDamageMultiplier: 0.8
+  m_enemyType: 3

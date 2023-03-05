@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb6e461f8e0ecb74ba8006653b7abeb0, type: 3}
+  m_Name: WaveData
+  m_EditorClassIdentifier: 
+  waves:
+  - m_generateEnemyDatas:
+    - m_minEnemyLevel: 0
+      m_maxEnemyLevel: 2
+    - m_minEnemyLevel: 0
+      m_maxEnemyLevel: 2
+    - m_minEnemyLevel: 0
+      m_maxEnemyLevel: 2
+  - m_generateEnemyDatas:
+    - m_minEnemyLevel: 0
+      m_maxEnemyLevel: 2
+    - m_minEnemyLevel: 0
+      m_maxEnemyLevel: 2
+    - m_minEnemyLevel: 0
+      m_maxEnemyLevel: 2
+    - m_minEnemyLevel: 0
+      m_maxEnemyLevel: 2
+  - m_generateEnemyDatas:
+    - m_minEnemyLevel: 0
+      m_maxEnemyLevel: 3
+    - m_minEnemyLevel: 0
+      m_maxEnemyLevel: 3
+    - m_minEnemyLevel: 0
+      m_maxEnemyLevel: 3
+    - m_minEnemyLevel: 0
+      m_maxEnemyLevel: 3
+    - m_minEnemyLevel: 0
+      m_maxEnemyLevel: 3
+  - m_generateEnemyDatas:
+    - m_minEnemyLevel: 1
+      m_maxEnemyLevel: 5
+    - m_minEnemyLevel: 1
+      m_maxEnemyLevel: 5
+    - m_minEnemyLevel: 1
+      m_maxEnemyLevel: 5
+    - m_minEnemyLevel: 1
+      m_maxEnemyLevel: 5
+  - m_generateEnemyDatas:
+    - m_minEnemyLevel: 3
+      m_maxEnemyLevel: 4
+    - m_minEnemyLevel: 3
+      m_maxEnemyLevel: 4
+    - m_minEnemyLevel: 3
+      m_maxEnemyLevel: 4
+  - m_generateEnemyDatas:
+    - m_minEnemyLevel: 3
+      m_maxEnemyLevel: 5
+    - m_minEnemyLevel: 3
+      m_maxEnemyLevel: 5
+    - m_minEnemyLevel: 3
+      m_maxEnemyLevel: 5
+    - m_minEnemyLevel: 3
+      m_maxEnemyLevel: 5
+    - m_minEnemyLevel: 3
+      m_maxEnemyLevel: 5
+  - m_generateEnemyDatas:
+    - m_minEnemyLevel: 3
+      m_maxEnemyLevel: 6
+    - m_minEnemyLevel: 3
+      m_maxEnemyLevel: 6
+    - m_minEnemyLevel: 3
+      m_maxEnemyLevel: 6
+    - m_minEnemyLevel: 3
+      m_maxEnemyLevel: 6
+    - m_minEnemyLevel: 3
+      m_maxEnemyLevel: 6
+    - m_minEnemyLevel: 3
+      m_maxEnemyLevel: 6
+  - m_generateEnemyDatas:
+    - m_minEnemyLevel: 3
+      m_maxEnemyLevel: 6
+    - m_minEnemyLevel: 3
+      m_maxEnemyLevel: 6
+    - m_minEnemyLevel: 3
+      m_maxEnemyLevel: 6
+    - m_minEnemyLevel: 3
+      m_maxEnemyLevel: 6
+    - m_minEnemyLevel: 3
+      m_maxEnemyLevel: 6
+    - m_minEnemyLevel: 3
+      m_maxEnemyLevel: 6
+    - m_minEnemyLevel: 3
+      m_maxEnemyLevel: 6
+    - m_minEnemyLevel: 3
+      m_maxEnemyLevel: 6
+    - m_minEnemyLevel: 3
+      m_maxEnemyLevel: 6
+    - m_minEnemyLevel: 3
+      m_maxEnemyLevel: 6
