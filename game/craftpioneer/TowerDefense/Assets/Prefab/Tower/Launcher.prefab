@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1752171989341868034
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1752171989341868035}
+  - component: {fileID: 1752171989341868032}
+  - component: {fileID: 5898818831727739242}
+  - component: {fileID: 4211250221179139079}
+  m_Layer: 0
+  m_Name: Launcher
+  m_TagString: Tower
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1752171989341868035
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1752171989341868034}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1752171989341868032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1752171989341868034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93cb98488c990a1499cc51218fee583c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_talentObjects:
+  - {fileID: 6043018367736428961, guid: a5a5522a635210844bcb38c52a2a9548, type: 3}
+  - {fileID: 8113475043382113310, guid: 5dc364b79ff3cf342ad178199a371ea2, type: 3}
+  - {fileID: 4786808742601408714, guid: 5644d4a4ae431bc48bdd244f2a99106e, type: 3}
+  - {fileID: 6328342487528773691, guid: 0dd6bb710dfd45f4eb765a677f8322b4, type: 3}
+  - {fileID: 7276285200215467660, guid: e48b3794b868de2419f81749bb82498e, type: 3}
+  - {fileID: 5892795812430897737, guid: 49a97dde4b1920f4bac54ba80c8f2df1, type: 3}
+  - {fileID: 7011011740585208916, guid: ba9c5185e66885f4ca9960cf346c3782, type: 3}
+  - {fileID: 3613941126570773316, guid: 232c8fb2d0ca41a438017f319c922a33, type: 3}
+  - {fileID: 8207939926272276797, guid: 299fb12ddef1f7a409bfe485a2b724e5, type: 3}
+  - {fileID: 7540705546917451503, guid: 48460469522cda949aa8d6c9e10449bf, type: 3}
+  - {fileID: 6146658872765506376, guid: 67c08d214a799d9499bae8f9ff6aa921, type: 3}
+  - {fileID: 9011409391765349142, guid: b2e010b8201211e4dbbedfdd2089ba3d, type: 3}
+  - {fileID: 8342548913221800258, guid: eeffd7076426da34cbfe0b5145a2cf10, type: 3}
+  - {fileID: 5056854520310499030, guid: d6ba9b48b10c9ae4fb3e6015b343cc99, type: 3}
+  - {fileID: 5987043192642634562, guid: 773004f67d69f21409a1993277681b30, type: 3}
+--- !u!54 &5898818831727739242
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1752171989341868034}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!136 &4211250221179139079
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1752171989341868034}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 10
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}

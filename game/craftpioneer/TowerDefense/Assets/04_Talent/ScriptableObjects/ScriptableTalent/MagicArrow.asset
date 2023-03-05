@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecc294640feca35489a028caaa8d4f0e, type: 3}
+  m_Name: MagicArrow
+  m_EditorClassIdentifier: 
+  m_talentName: MagicArrow
+  m_talentType: 0
+  m_talentAttribute: 1
+  m_damage: 60
+  m_criticalChance: 5
+  m_speed: 8
+  m_addRechergeTime: 0.1
+  m_multiCastValue: 0
+  m_lifeTime: 2
+  m_spread: 0
+  m_pierceing: 0
+  m_airResistance: 0.1
+  m_massScale: 0.1
+  m_shooterInformation: 0

@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 74ea19cb1c9579c41bd80af4dc43bf41
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - Ground: {instanceID: 0}
+  - Biome: {instanceID: 0}
+  - Biome1: {instanceID: 0}
+  - Biome2: {instanceID: 0}
+  - Biome3: {instanceID: 0}
+  - Castle: {instanceID: 0}
+  - Village1: {instanceID: 0}
+  - Village2: {instanceID: 0}
+  - Road: {instanceID: 0}
+  - mapData: {fileID: 11400000, guid: 7ca30cac0e0c382458f0c7dfadc39163, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
