@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+header{
+  margin: 15px 25px;
+	font-family: 'Source Sans Pro', 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif
+}
+
+.header-text{
+  padding: 5px;
+  font-size: x-large;
+}
+
+body	{
+  margin: 0 25px;
+	font-family: 'Source Sans Pro', 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif
+}
+
+.work{
+  background-color: rgb(219, 219, 219);
+  padding: 10px;
+  margin: 0px;
+}
+
+.game-title{
+  background-color: rgb(181, 221, 221);
+  padding: 5px;
+  font-size: xx-large;
+}
+
+.description-title{
+  padding: 15px 10px 0px;
+  margin: 5px;
+  font-size: 23px;
+}
+
+.description{
+  padding: 0px 10px;
+  margin: 5px;
+}
+
+.document{
+  background-color: white;
+  padding: 5px;
+}
+
+.game-image{
+  width: 40%;
+  height: 40%;
+  display: flex;
+  margin-bottom: 5px;
+}

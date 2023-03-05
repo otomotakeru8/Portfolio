@@ -1,0 +1,292 @@
+<html lang="jp">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<header>
+    <div class="header-text">大友健瑠　ポートフォリオ</div>
+    <a href="https://github.com/otomotakeru/portfolio" class="description">こちらのリポジトリ内にUnityプロジェクトがあります。(portfolio/game)</a>
+    <div class="description">最後以外は新しく制作した順に並べています。</div>
+</header>
+
+<body>
+    <div class="work">
+        <div class="game-title">Craft Pioneer</div>
+        <div class="game-image">
+            <img src="game/craftpioneer/title.png">
+            <img src="game/craftpioneer/craftpioneermaingame.png">
+        </div>
+        <div class="document">
+            <div class="description-title">作品概要</div>
+            <div class="description">
+                タワーディフェンスとデッキ構築を組み合わせたローグライトゲームです。<br>
+                木や石を集めてタワーを作り、タワーにタレントを付与することで攻撃方法を指定します。<br>
+                ランダム生成されたマップを自由に攻略してボスを倒すのが目標です。<br>
+                Unity:2019.4.2f1<br>
+                PC向け
+            </div>
+            <div class="description-title">操作方法</div>
+            <div class="description">
+                ドラッグでカメラ移動<br>
+                マウスの左クリックで操作<br>
+                タレントをドラッグアンドドロップでタレントの移動
+            </div>
+            <div class="description-title">制作メンバー</div>
+            <div class="description">
+                プランナー１人<br>
+                デザイナー２人<br>
+                プログラマー４人
+            </div>
+            <div class="description-title">制作期間</div>
+            <div class="description">
+                約５ヶ月
+            </div>
+            <div class="description-title">担当箇所</div>
+            <div class="description">
+                Unityプロジェクトの管理<br>
+                ・プロジェクトを作成、設定<br>
+                ・アセットのファイル構成<br>
+                　大きな構成ごとにファイルを分割しています。<br>
+                ・githubの使用を考慮した点<br>
+                　上記のファイル構成の時点ではSceneデータの変更による衝突の可能性があるので、<br>
+                　シーン内にファイル構成と同じようなオブジェクトを予め用意しました。<br>
+            </div>
+            <div class="description">
+                タワー(Assets/03_Tower)<br>
+                ・タワーのモデル<br>
+                　タワーのモデルはは５つでレベルが上がると切り替わります。<br>
+                　タワーのモデルはあまり丸みが無いので、LODで表示か非表示にしています。<br>
+                ・タワーのシステム(Script/Tower,Launcher)<br>
+                　基礎ステータスはレベルごとにScriptableObjectからコピーしています。<br>
+                　タワーのUIを通じてセットされたタレントはTowerで管理します。<br>
+                　Launcherが敵を検知するとTowerに何を打つべきかを要求、<br>
+                　タワーにセットされたタレントを左から順に出していく、カードゲームのようなデッキ・ハンド・ディスカードの仕組みを実装しています。<br>
+            </div>
+            <div class="description">
+                タレント(Assets/04_Talent)<br>
+                ・タレントがUIから実体化するまでの流れ<br>
+                　初めは使用可能なタレントとして名前と見た目だけのUIの状態です。<br>
+                　タワーにセットされるとTowerの中でTalentBaseクラスに変換します。<br>
+                　LauncherがDrawAction()などを呼び出していくとLauncherでInstantiateされ実体化します。
+            </div>
+            <div class="description">
+                UI<br>
+                ・タワーのUIはタレントのドラッグアンドドロップ時、それぞれのUIサイズに差が出ないようにしています。
+            </div>
+            <div class="description">
+                3Dモデルや2D素材のインポート<br>
+                ・R_3DModel内のModelCheckerではエディター拡張を使っており、不要な子オブジェクトが付いている3Dモデルをボタン一つで綺麗にできます。
+            </div>
+            <div class="description">
+                その他<br>
+                ・プロトタイプ制作<br>
+                ・マップ生成の手伝い<br>
+                ・エネミー制作の手伝い<br>
+                ・軽量化
+            </div>
+        </div>
+    </div>
+    <div class="work">
+        <div class="game-title">Busy Christmas</div>
+        <div class="game-image">
+            <img src="game/busychristmas/title.png">
+            <img src="game/busychristmas/maingame.png">
+        </div>
+        <div class="document">
+            <div class="description-title">作品概要</div>
+            <div class="description">
+                クリスマスプレゼントを作って、配達するゲームです。<br>
+                Unity:2019.4.2f1<br>
+                PC向け(コントローラー操作)
+            </div>
+            <div class="description-title">操作方法</div>
+            <div class="description">
+                コントローラー<br>
+                　左スティックで移動<br>
+                　Aボタンで持つ、置く<br>
+                　Bボタンで作業<br>
+                　配達フェーズ<br>
+                　　Bボタンで投げる<br>
+                キーボード<br>
+                　WASDキーで移動<br>
+                　作業フェーズ<br>
+                　　Mキーで持つ、置く<br>
+                　　Kキーで作業<br>
+                　配達フェーズ<br>
+                　　Eキーで持つ<br>
+                　　スペースキーで投げる<br>
+            </div>
+            <div class="description-title">制作メンバー</div>
+            <div class="description">
+                プランナー１人<br>
+                デザイナー 複数人に発注<br>
+                プログラマー６人
+            </div>
+            <div class="description-title">制作期間</div>
+            <div class="description">
+                約５ヶ月
+            </div>
+            <div class="description-title">担当箇所</div>
+            <div class="description">
+                プロトタイプ制作<br>
+            </div>
+            <div class="description">
+                プレイヤー製作(Assets/AnyWhere/Player)<br>
+            </div>
+            <div class="description">
+                その他<br>
+                ・3Dモデルや2D素材のインポート<br>
+                ・ステージ製作の手伝い<br>
+                ・アイテムボックス製作の手伝い<br>
+                ・製作台製作の手伝い<br>
+                地球儀を作成し地球儀上でステージ選択できるようにする予定でしたが、<br>
+                地球儀の作成が難しく、製作台の実装が難航していた為ステージが１つだけとなり、ゲーム上の担当箇所が少なくなっています。<br>
+                散らかっていますが(Assets/WorldSelection)にC#があり、(Assets/Scenes/WorldSelection)シーン内のPlanetにて実装した様子が見れます。
+            </div>
+        </div>
+    </div>
+    <div class="work">
+        <div class="game-title">Revive Spin</div>
+        <div class="game-image">
+            <img src="game/revivespin/title.png">
+            <img src="game/revivespin/maingame.png">
+        </div>
+        <div class="document">
+            <div class="description-title">作品概要</div>
+            <div class="description">
+                メビウスの輪をテーマにした、アクションパズルゲームです。<br>
+                簡単な仕掛けを解いてゴールを目指します。<br>
+                Unity:2019.4.2f1<br>
+                PC向け(コントローラー操作)
+            </div>
+            <div class="description-title">操作方法</div>
+            <div class="description">
+                コントローラー<br>
+                　左スティックで横移動<br>
+                　Yでレバー操作<br>
+                　Bで拾う<br>
+                キーボード<br>
+                　AとDで横移動<br>
+                　スペースでジャンプ<br>
+                　ステージ２
+                　　Iで拾う
+                　　Tでレバー操作
+                　ステージ３
+                　　Eで拾う<br>
+                　　Tでレバー操作
+            </div>
+            <div class="description-title">制作メンバー</div>
+            <div class="description">
+                プランナー１人<br>
+                デザイナー２人<br>
+                プログラマー3人
+            </div>
+            <div class="description-title">制作期間</div>
+            <div class="description">
+                約４ヶ月
+            </div>
+            <div class="description-title">担当箇所</div>
+            <div class="description">
+                プロトタイプ制作<br>
+            </div>
+            <div class="description">
+                プロジェクトを作成、設定<br>
+                2D素材やサウンドのインポート
+            </div>
+            <div class="description">
+                プレイヤー製作(Assets/Player)<br>
+                ・横移動<br>
+                　キーボード入力とコントローラー入力を同じ変数に代入する事で、デバックをしやすくしました。<br>
+                ・ジャンプ<br>
+                　ジャンプは上昇と耐空と下降の3段階に分かれています。<br>
+                　上昇と耐空は時間と強さが変えられます。<br>
+                　上昇中にジャンプ入力が離されると耐空状態になります。<br>
+                　着地判定とジャンプ可能判定を分けることで連続ジャンプをできないようにしています。
+            </div>
+            <div class="description">
+                その他<br>
+                ・ステージ製作<br>
+                　着地に使用する接触判定の設置<br>
+                ・ギミック製作の手伝い<br>
+                　ボタンやアイテム、エレベーターなど
+            </div>
+        </div>
+    </div>
+    <div class="work">
+        <div class="game-title">Magic Ball</div>
+        <div class="game-image">
+            <img src="game/topdownshooter/title.png">
+            <img src="game/topdownshooter/maingame.png">
+        </div>
+        <div class="document">
+            <div class="description-title">作品概要</div>
+            <div class="description">
+                見下ろし型のシューティングゲームで、８回出現する敵をすべて倒すとクリアです。<br>
+                敵を倒すとポイントが獲得でき、ウェーブ後に強化などができます。<br>
+                Unity:2019.4.2f1<br>
+                PC向け
+            </div>
+            <div class="description-title">操作方法</div>
+            <div class="description">
+                WASDキーで移動<br>
+                SHIFTキーでダッシュ<br>
+                マウスの左クリック・右クリックで攻撃
+            </div>
+            <div class="description-title">制作メンバー</div>
+            <div class="description">
+                1人
+            </div>
+            <div class="description-title">制作期間</div>
+            <div class="description">
+                約３ヶ月
+            </div>
+            <div class="description-title">アピールポイント</div>
+            <div class="description">
+                プレイヤー製作(Assets/Script/Player/Player,PlayerDirector)<br>
+                ・シンプルなステータスの強化、バランスでハイパーカジュアルゲームような面白さを出しています。
+            </div>
+        </div>
+    </div>
+    <div class="work">
+        <div class="game-title">SandPixelSimulation</div>
+        <div class="game-image">
+            <img src="game/sandpixelsimulation/Screenshot.png">
+        </div>
+        <div class="document">
+            <div class="description-title">作品概要</div>
+            <div class="description">
+                Unity上で砂のピクセルシミュレーションをするプロジェクトです。<br>
+                現状ゲームではありません。
+                Unity:2020.3.10f1<br>
+                PC向け
+            </div>
+            <div class="description-title">操作方法</div>
+            <div class="description">
+                左クリックで砂の出現<br>
+                右クリックで消しゴム
+            </div>
+            <div class="description-title">制作メンバー</div>
+            <div class="description">
+                1人
+            </div>
+            <div class="description-title">制作期間</div>
+            <div class="description">
+                約２ヶ月
+            </div>
+            <div class="description-title">挑戦していること</div>
+            <div class="description">
+                ジオメトリーシェーダーで1000×600個のピクセルを描画させています。<br>
+                シェーダーで使用しているカラー用のバッファーをコンピュートシェーダーに共有して、<br>
+                コンピュートシェーダー内でシュミレーションの計算とバッファーを書き換えをしています。<br>
+                軽量化やシェーダーなどの勉強、ピクセルシミュレーションのチャレンジをしています。
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
