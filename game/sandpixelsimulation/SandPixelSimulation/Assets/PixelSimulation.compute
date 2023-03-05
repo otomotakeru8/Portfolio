@@ -1,0 +1,100 @@
+﻿// Each #kernel tells which function to compile; you can have many kernels
+#pragma kernel CSMain
+
+RWStructuredBuffer<float4> typeMap;
+
+int x;
+int y;
+bool erase;
+int frame;
+
+float4 air;
+float4 sand;
+
+int result;
+//+=も含めた計算に使用したコスト
+int simCost;
+
+//dispatch(0,125,75,1)
+[numthreads(8,8,1)]
+void CSMain(uint3 gid : SV_GroupID, uint3 tid : SV_GroupThreadID)
+{
+    simCost = 0;
+    result = 0;
+	int id = tid[1] + tid[0] * 8 + gid[1] * 64 + gid[0] * 4800;
+    int rand;
+    if (id * frame % 4 < 2)
+    {
+        rand = 0;
+    }
+    else
+    {
+        rand = 1;
+    }
+    air = float4(0, 0, 0, 0);
+    sand = float4(1, 1, 0, 1);
+    
+    if (x != 0 && y != 0)
+	{
+        int pos = x + y * 1000;
+        simCost += 3;
+        if (all(typeMap[pos] == air) && erase == false)
+        {
+            typeMap[pos] = sand;
+            pos++;
+            typeMap[pos] = sand;
+            simCost += 5;
+        }
+        else
+        {
+            typeMap[pos] = air;
+            pos++;
+            typeMap[pos] = air;
+            simCost += 6;
+        }
+    }
+    
+	int down = id - 1000;
+    if (all(typeMap[id] == sand))
+    {
+        if (all(typeMap[down] == air))
+        {
+            if (all(typeMap[down - 1000] == air))
+            {
+                //result = down - 1000;
+                result = down;
+                simCost += 6;
+            }
+            else
+            {
+                result = down;
+                simCost += 6;
+            }
+        }
+        else
+        {
+            if (all(typeMap[id - 1] == air) && all(typeMap[down - 1] == air))
+            {
+                result = down - 1;
+                simCost += 6;
+            }
+            else if (all(typeMap[id + 1] == air) && all(typeMap[down + 1] == air))
+            {
+                result = down + 1;
+                simCost += 6;
+            }
+        }
+    }
+    
+    int delay = 20 - simCost;
+    while (delay > 0)
+    {
+        delay--;
+    }
+    
+    if (result != 0)
+    {
+        typeMap[result] = sand;
+        typeMap[id] = air;
+    }
+}
