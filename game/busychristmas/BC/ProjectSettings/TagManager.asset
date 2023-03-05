@@ -1,0 +1,269 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Item
+  - Box
+  - CraftTable
+  - BookTable
+  - CakeTable
+  - PCTable
+  - SewingmachineTable
+  - WrappingBoxTable
+  - WrappingRibbonTable
+  - SewingTable
+  - Table
+  - CompletedItem
+  - Box/Paper
+  - Box/Leather
+  - Box/Iron
+  - Box/Rubber
+  - Box/Plastic
+  - Box/BlueWool
+  - Box/RedWool
+  - Box/Pancake
+  - Box/Cream
+  - Box/ChocolateCream
+  - Box/Strawberry
+  - Box/ConductingWire
+  - Box/Package
+  - Box/Candy
+  - Box/Cookie
+  - Box/Chocolate
+  - Box/Robot
+  - Box/Controller
+  - Box/RadioControlled
+  - Box/RedCloth
+  - Box/BlackCloth
+  - Box/WhiteCloth
+  - Item/Paper
+  - Item/Leather
+  - Item/Iron
+  - Item/Rubber
+  - Item/Plastic
+  - Item/BlueWool
+  - Item/RedWool
+  - Item/Pancake
+  - Item/Cream
+  - Item/ChocolateCream
+  - Item/Strawberry
+  - Item/ConductingWire
+  - Item/Package
+  - Item/Candy
+  - Item/Cookie
+  - Item/Chocolate
+  - Item/Robot
+  - Item/Controller
+  - Item/RadioControlled
+  - Item/RedCloth
+  - Item/BlackCloth
+  - Item/WhiteCloth
+  - Box/Ribbon
+  - Item/Ribbon
+  - Box/Soft
+  - Item/Soft
+  - Box/GamePackage
+  - Item/GamePackage
+  - Box/PinkGift
+  - Box/RedGift
+  - Box/YellowGift
+  - Box/GreenGift
+  - Box/BlieGift
+  - Box/PurpleGift
+  - Item/PinkGift
+  - Item/RedGift
+  - Item/YellowGift
+  - Item/GreenGift
+  - Item/BlueGift
+  - Item/PurpleGift
+  - Box/Cotton
+  - Item/Cotton
+  - Box/Cloth
+  - Item/Cloth
+  - Box/Knitting
+  - Complete/RedScarf
+  - Complete/BlueScarf
+  - Complete/Book
+  - Complete/Car
+  - Complete/Airplane
+  - Complete/Cake
+  - Complete/ChocolateCake
+  - Complete/GameConsole
+  - Complete/Soft
+  - Complete/Assort
+  - Complete/Robot
+  - Complete/Radiocotrolled
+  - 'Complete/Dool '
+  - Complete/Clothes
+  - PinkGift/Complete/RedScarf
+  - PinkGift/Complete/BlueScarf
+  - PinkGift/Complete/Book
+  - PinkGift/Complete/Car
+  - PinkGift/Complete/Airplane
+  - PinkGift/Complete/ChocolateCake
+  - PinkGift/Complete/Cake
+  - PinkGift/Complete/GameConsole
+  - PinkGift/Complete/Soft
+  - PinkGift/Complete/Assort
+  - PinkGift/Complete/Robot
+  - PinkGift/Complete/Radiocotrolled
+  - 'PinkGift/Complete/Dool '
+  - RedGift/Complete/RedScarf
+  - RedGift/Complete/BlueScarf
+  - RedGift/Complete/Book
+  - RedGift/Complete/Car
+  - RedGift/Complete/Airplane
+  - RedGift/Complete/Cake
+  - RedGift/Complete/ChocolateCake
+  - RedGift/Complete/GameConsole
+  - RedGift/Complete/Assort
+  - RedGift/Complete/Robot
+  - RedGift/Complete/Radiocotrolled
+  - 'RedGift/Complete/Dool '
+  - RedGift/Complete/Clothes
+  - PinkGift/Complete/Clothes
+  - YellowGift/Complete/RedScarf
+  - YellowGift/Complete/BlueScarf
+  - YellowGift/Complete/Book
+  - YellowGift/Complete/Car
+  - YellowGift/Complete/Airplane
+  - YellowGift/Complete/Cake
+  - YellowGift/Complete/ChocolateCake
+  - YellowGift/Complete/GameConsole
+  - YellowGift/Complete/Soft
+  - YellowGift/Complete/Assort
+  - YellowGift/Complete/Robot
+  - YellowGift/Complete/Radiocotrolled
+  - 'YellowGift/Complete/Dool '
+  - YellowGift/Complete/Clothes
+  - GreenGift/Complete/RedScarf
+  - GreenGift/Complete/BlueScarf
+  - GreenGift/Complete/Book
+  - GreenGift/Complete/Car
+  - GreenGift/Complete/Airplane
+  - GreenGift/Complete/Cake
+  - GreenGift/Complete/ChocolateCake
+  - GreenGift/Complete/GameConsole
+  - GreenGift/Complete/Soft
+  - GreenGift/Complete/Assort
+  - GreenGift/Complete/Robot
+  - GreenGift/Complete/Radiocotrolled
+  - 'GreenGift/Complete/Dool '
+  - GreenGift/Complete/Clothes
+  - BlueGift/Complete/RedScarf
+  - BlueGift/Complete/BlueScarf
+  - BlueGift/Complete/Book
+  - BlueGift/Complete/Car
+  - BlueGift/Complete/Airplane
+  - BlueGift/Complete/Cake
+  - BlueGift/Complete/ChocolateCake
+  - BlueGift/Complete/GameConsole
+  - BlueGift/Complete/Soft
+  - BlueGift/Complete/Assort
+  - BlueGift/Complete/Robot
+  - BlueGift/Complete/Radiocotrolled
+  - 'BlueGift/Complete/Dool '
+  - BlueGift/Complete/Clothes
+  - PurpleGift/Complete/RedScarf
+  - PurpleGift/Complete/BlueScarf
+  - PurpleGift/Complete/Book
+  - PurpleGift/Complete/Car
+  - PurpleGift/Complete/Airplane
+  - PurpleGift/Complete/ChocolateCake
+  - PurpleGift/Complete/Cake
+  - PurpleGift/Complete/GameConsole
+  - PurpleGift/Complete/Soft
+  - PurpleGift/Complete/Assort
+  - PurpleGift/Complete/Robot
+  - PurpleGift/Complete/Radiocotrolled
+  - 'PurpleGift/Complete/Dool '
+  - PurpleGift/Complete/Clothes
+  - Complete/RedClothes
+  - Complete/BlackClothes
+  - Complete/WhiteClothes
+  - PinkGift/Complete/RedClothes
+  - PinkGift/Complete/BlackClothes
+  - PinkGift/Complete/WhiteClothes
+  - RedGift/Complete/RedClothes
+  - RedGift/Complete/BlackClothes
+  - RedGift/Complete/WhiteClothes
+  - YellowGift/Complete/RedClothes
+  - YellowGift/Complete/BlackClothes
+  - YellowGift/Complete/WhiteClothes
+  - GreenGift/Complete/RedClothes
+  - GreenGift/Complete/BlackClothes
+  - GreenGift/Complete/WhiteClothes
+  - BlueGift/Complete/RedClothes
+  - BlueGift/Complete/BlackClothes
+  - BlueGift/Complete/WhiteClothes
+  - PurpleGift/Complete/RedClothes
+  - PurpleGift/Complete/BlackClothes
+  - PurpleGift/Complete/WhiteClothes
+  - Item/CSoft
+  - PinkGift/Complete/Controller
+  - RedGift/Complete/Controller
+  - YellowGift/Complete/Controller
+  - GreenGift/Complete/Controller
+  - BlueGift/Complete/Controller
+  - PurpleGift/Complete/Controller
+  - Item/Sugar
+  - Item/Water
+  - Item/CCream
+  - Item/Egg
+  - Item/CChocolate
+  - Item/CIron
+  - Item/CPlastic
+  - Item/CRubber
+  - Item/CCIron
+  - Item/CCPlastic
+  - Item/CPaper
+  - Item/CLeather
+  - Item/CStrawberry
+  - Item/CPancake
+  - Item/Bag
+  - Item/CCandy
+  - Item/Squeezing
+  - Item/CCCream
+  - Item/CChocolateCream
+  - Item/MIron
+  - Item/MPlastic
+  - Item/MPancake
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
